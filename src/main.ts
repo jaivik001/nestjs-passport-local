@@ -25,7 +25,7 @@ async function bootstrap() {
       saveUninitialized: true,
       cookie: { 
         sameSite: 'none',
-        secure: false
+        secure: true
       }
     })
   );
